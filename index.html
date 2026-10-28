@@ -1,0 +1,93 @@
+
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Элина, это для тебя ♡</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap');
+*{box-sizing:border-box}
+body{
+ margin:0;min-height:100vh;padding:32px 18px;display:grid;place-items:center;
+ font-family:Manrope,"Trebuchet MS",sans-serif;color:#613d48;overflow-x:hidden;
+ background:radial-gradient(ellipse at 8% 15%,#ffc0cc6b,transparent 29%),
+ radial-gradient(ellipse at 92% 78%,#ffc2cf61,transparent 28%),
+ linear-gradient(145deg,#fff8f8,#fff0f3 52%,#fff8f7);
+}
+body:before{
+ content:"Э + Э     Э + Э     Э + Э     Э + Э     Э + Э     Э + Э     Э + Э     Э + Э";
+ position:fixed;inset:-24px;z-index:0;pointer-events:none;user-select:none;
+ color:rgba(112,104,108,.075);font-size:clamp(13px,2vw,19px);
+ font-weight:800;letter-spacing:.18em;line-height:7.5;overflow:hidden;
+ overflow-wrap:anywhere;word-spacing:.9em;transform:rotate(-8deg) scale(1.08);
+ text-align:center;
+}
+.page{
+ width:min(100%,760px);position:relative;text-align:center;
+ padding:clamp(28px,6vw,64px) clamp(20px,6vw,68px);
+ border:1px solid #fffffff2;border-radius:36px;
+ background:#ffffffc2;box-shadow:0 24px 80px #c569811a;
+ backdrop-filter:blur(10px);
+}
+.topline{
+ display:inline-flex;align-items:center;gap:9px;padding:9px 15px;
+ border-radius:999px;color:#cf536b;background:#fff0f3;
+ font-size:12px;font-weight:800;letter-spacing:.09em;text-transform:uppercase;
+}
+.heart{color:#e66f87;font-size:18px;line-height:1}
+h1{
+ margin:27px 0 16px;color:#d65f79;font-size:clamp(38px,8vw,66px);
+ font-weight:800;line-height:1.06;letter-spacing:-.055em;
+}
+.subtitle{
+ margin:0 auto 28px;max-width:480px;font-size:clamp(15px,2.7vw,18px);
+ line-height:1.8;color:#986c78;
+}
+.note{
+ margin:0 auto;max-width:535px;padding:clamp(22px,4vw,34px);
+ border-radius:28px;background:#fff5f7eb;
+ border:1px solid #f4b9c76b;text-align:left;
+ font-size:clamp(15px,2.6vw,17px);line-height:1.9;
+}
+.note p{margin:0 0 16px}.note p:last-child{margin-bottom:0}
+.future{
+ display:inline-block;margin-top:25px;padding:11px 17px;border-radius:999px;
+ color:#b84d66;background:#ffe4ea;font-size:13px;font-weight:700;
+}
+.signoff{margin-top:26px;font-size:16px;font-weight:700;line-height:1.8;color:#c6536d}
+.bottom-heart{margin-top:18px;font-size:23px;color:#e77e94;letter-spacing:7px}
+.signature{margin-top:18px;color:#b9aeb1;font-size:12px;font-weight:500;letter-spacing:.025em;line-height:1.7}
+.float{position:absolute;color:#e0688361;user-select:none;pointer-events:none}
+.float.one{top:8%;left:7%;font-size:25px;transform:rotate(-15deg)}
+.float.two{top:19%;right:7%;font-size:19px;transform:rotate(13deg)}
+.float.three{bottom:10%;left:8%;font-size:17px}
+.float.four{bottom:12%;right:8%;font-size:26px;transform:rotate(12deg)}
+@media(max-width:480px){
+ .page{border-radius:28px}.note{border-radius:23px}
+ .float.one{left:4%;top:4%}.float.two{right:4%;top:12%}
+}
+</style>
+</head>
+<body>
+<main class="page">
+ <span class="float one" aria-hidden="true">♡</span>
+ <span class="float two" aria-hidden="true">♥</span>
+ <span class="float three" aria-hidden="true">♡</span>
+ <span class="float four" aria-hidden="true">♥</span>
+ <div class="topline"><span class="heart">♡</span> только для тебя</div>
+ <h1>Элина,<br>я тебя люблю</h1>
+ <p class="subtitle">И если честно, я до сих пор иногда не верю, что мне так повезло с тобой.</p>
+ <section class="note" aria-label="Письмо для Элины">
+  <p>Ты у меня самая любимая. Даже обычный день с тобой становится каким-то особенным, а после твоих сообщений я могу ходить и улыбаться как дурак.</p>
+  <p>Я хочу, чтобы у нас впереди было ещё столько всего: наши спонтанные планы, ночные разговоры, поездки куда-нибудь вдвоём и куча маленьких моментов, которые будут только нашими.</p>
+  <p>А там, кто знает… Может, однажды будем выбирать кольца, спорить из-за мелочей на свадьбе и вспоминать, как всё начиналось. Не тороплю время — просто мне нравится думать, что впереди у нас может быть целая жизнь вместе.</p>
+  <p>Элина, я очень тебя люблю. Мне так хорошо от мысли, что впереди у нас ещё столько тёплых моментов, общих мечтаний и историй, которые мы однажды будем вспоминать с улыбкой. ❤️</p>
+ </section>
+ <div class="future">сейчас — мы, а дальше посмотрим вместе ♡</div>
+ <div class="signoff">С тобой мне хочется мечтать о самом красивом будущем.</div>
+ <div class="bottom-heart" aria-hidden="true">♡ · ♥ · ♡</div>
+ <div class="signature">от Эдика. Люблю тебя.</div>
+</main>
+</body>
+</html>
